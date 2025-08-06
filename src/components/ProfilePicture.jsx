@@ -1,9 +1,9 @@
-import Button from "react-bootstrap/Button";
+import headshot from "../assets/headshot.png";
 
 export default function ProfilePicture() {
   return (
     <>
-      <img src="./src/assets/headshot.png" className="profile-img" />
+      <img src={headshot} className="profile-img" />
     </>
   );
 }
