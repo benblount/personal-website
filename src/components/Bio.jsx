@@ -4,14 +4,14 @@ export default function Bio() {
       <main className="bio-text">
         <p>
           With over 5 years of experience in operations in the TransitTech
-          industry, I am now fully dedicating my time and effort into UI, UX,
-          and Product design.
+          industry, I am now fully dedicating my time and effort to UI, UX, and
+          Product design.
         </p>
         <p>
           I have extensive process-improvement and team-building experience in
           an operations environment, and I have 3 years experience working with
           product teams to improve products based on operational data and user
-          feedback
+          feedback.
         </p>
         <p>
           With a deep knowledge of web developement, I pride myself on building
