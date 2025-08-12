@@ -1,4 +1,4 @@
-import ProfilePicture from "./ProfilePicture";
+import ProfilePicture from "../ProfilePicture";
 import Links from "./Links";
 
 export default function Profile() {

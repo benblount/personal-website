@@ -5,125 +5,21 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-.card {
-  padding: 2em;
-  overflow: hidden;
-}
-
-.card-container {
-  background-color: #1c1f22;
-  max-width: 100%;
+body {
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 25px;
-  border-radius: 1rem 1rem;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #e4f5e1;
+  background: linear-gradient(
+    45deg,
+    rgba(228, 245, 225, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(228, 245, 225, 1) 100%
+  );
 }
 
-.profile {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.profile-img {
-  max-width: 100%;
-  border-radius: 1rem 1rem 0 0;
-}
-
-.profile-header {
-  font-weight: 700;
-}
-
-.sub-header {
-  display: flex;
-  word-wrap: break-word;
-  font-weight: 200;
-  font-size: 1rem;
-}
-
-.profile-text {
-  padding-top: 2rem;
-}
-
-.links {
-  display: flex;
-}
-
-.links .btn {
-  margin: 1rem;
-  margin-bottom: 2rem;
-  font-size: 1.25rem;
-}
-
-.btn.email-btn {
-  background-color: #ffffff;
-  color: black;
-  font-size: 1rem;
-  padding: 0.25rem 2rem;
-}
-
-.btn.linkedin-btn {
-  padding: 0.25rem 2rem;
-  font-size: 1rem;
-  background-color: #5f93dc;
-}
-.bio-text {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  align-items: center;
-  padding: 2rem;
-  background-color: #151719;
-}
-
-.card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0.5rem;
-  color: red;
-  width: 100%;
-  border-radius: 0 0 1rem 1rem;
-}
-
-.card-footer .btn {
-  margin: 0.25rem 1rem;
-  font-size: 1.25rem;
-}
-
-.footer {
-  padding-top: 2rem;
+h1 {
+  font-family: "Instrument Sans";
 }
